@@ -1,0 +1,19 @@
+{
+    "config": {
+        "platform": {
+            "php": "7.4"
+        }
+    },
+    "autoload": {
+        "files": [
+            "utils/class-database.php",
+            "utils/class-install.php",
+            "utils/class-version.php"
+        ]
+    },
+    "require": {
+        "illuminate/database": "^8.83",
+        "econea/nusoap": "^0.9.20",
+        "hekmatinasser/verta": "^2.1"
+    }
+}
